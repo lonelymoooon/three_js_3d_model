@@ -20,7 +20,7 @@
    document.body.appendChild(renderer.domElement);
 
    const loader = new GLTFLoader();
-   loader.load('path/to/model.gltf', function (gltf) {
+   loader.load('https://github.com/lonelymoooon/three_js_3d_model/blob/main/cat.glb', function (gltf) {
      gltf.scene.position.set(0, 0, 0); 
      scene.add(gltf.scene);
    });
